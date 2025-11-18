@@ -1,0 +1,33 @@
+
+----------------------------------------------------------------------
+
+Volume and changes 
+| O‘zgarish turi                | Nima qilish kerak        |
+| ----------------------------- | ------------------------ |
+| Python/FastAPI/Django kodlari | Hech narsa — auto reload |
+| Dockerfile o‘zgarsa           | build+up                 |
+| requirements.txt o‘zgarsa     | build+up                 |
+| .env (faqat Django/FAPI)      | down+up                  |
+| .env (POSTGRES_*)             | down -v + up             |
+
+---------------------------------------------------------------------
+connection for postgres and fix socket error 
+
+Yangi ishga tushgan PostgreSQL konteyneri:
+
+1–5 soniya DB yaratadi
+
+user yaratadi
+
+access ruxsatlarini sozlaydi
+
+socket ochadi
+
+TCP portni yoqadi
+
+agar fast api yoki django hali create bomagan postgresga ulanib qoysa 
+socker error chiqadi
+connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed:
+Is the server running locally?
+
+---------------------------------------------------------------------
