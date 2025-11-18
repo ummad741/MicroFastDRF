@@ -68,3 +68,7 @@ PostgreSQL servisi:
 - Docker orqali konteyner sifatida boshqariladi  
 - Fayllar **volume** orqali saqlanadi  
 - Istalgan vaqtda TablePlus, DBeaver orqali ulanish mumkin:
+
+
+
+# write only one command and take already prepared Microservice and Build your dream projects
